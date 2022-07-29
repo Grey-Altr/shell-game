@@ -25,3 +25,12 @@ Additional considerations:
 - Is there some state we need to initialize?
 - Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be resused?)
 
+Project plan:
+
+1) App loads to header "DANI'S 3 CUPS" showing three cups with buttons under each, beneath which is a list of the current games stats displaying number of games played, number of wins and number of losses.
+
+2) User clicks the button corresponding to their choice.
+
+3) Correct choices reveal the ball. Incorrect choice show an empty cup.
+
+4) Stat Counter updates 
