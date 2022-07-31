@@ -16,6 +16,7 @@ header {
     position: sticky;
     top: 0;
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: var(--header-background);
 }
@@ -36,6 +37,14 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 footer {
