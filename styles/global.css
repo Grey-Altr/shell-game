@@ -16,11 +16,34 @@ header {
     position: sticky;
     top: 0;
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: var(--header-background);
 }
 
 main {
+    padding: 20px;
+}
+
+.cups {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
 }
 
