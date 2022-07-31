@@ -23,11 +23,11 @@ Additional considerations:
   - What arrays might you need? 
   - What needs to live in a persistence layer?
 - Is there some state we need to initialize?
-- Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be resused?)
+- Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
 
 Project plan:
 
-1) App loads to header "DANI'S 3 CUPS" showing three cups with buttons under each, beneath which is a list of the current games stats displaying number of games played, number of wins and number of losses.
+1) App loads to header "3 CUPS" showing three cups with buttons under each, beneath which is a list of the current games stats displaying number of games played, number of wins and number of losses.
 
 2) User clicks the button corresponding to their choice.
 
